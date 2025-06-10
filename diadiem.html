@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Địa Điểm Du Lịch Đà Nẵng</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="diadiem.css">
+  </head>
+  <body>
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Khám phá Đà Nẵng</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Trang chủ</a>
+        </li>
+        <li class="nav-item"><a class="nav-link active" href="diadiem.html">Địa điểm</a></li>
+        <li class="nav-item"><a class="nav-link" href="amthuc.html">Ẩm thực</a></li>
+        <li class="nav-item"><a class="nav-link" href="khachsan.html">Khách sạn</a></li>
+        <li class="nav-item"><a class="nav-link" href="lehoi.html">Sự kiện/ Lễ Hội</a></li>
+        <li class="nav-item"><a class="nav-link" href="lienhe.html">Liên hệ</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Navbar -->
+
+    <!-- Tiêu đề trang -->
+   <section
+  class="py-5 text-center text-white "
+  style="
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                url('Imags/diaiem/dia-diem-1.jpg') no-repeat center center / cover;
+  "
+>
+  <div class="container">
+    <h1 class="display-4 fw-bold mb-3">
+      Địa Điểm Du Lịch Nổi Bật Tại Đà Nẵng
+    </h1>
+    <p class="lead">
+      Khám phá những điểm đến hấp dẫn không thể bỏ qua tại thành phố biển xinh đẹp
+    </p>
+  </div>
+</section>
+
+    <!-- Nội dung địa điểm du lịch -->
+    <section class="py-5">
+      <div class="container">
+        <h4 class="mb-3">
+          ĐỊA ĐIỂM DU LỊCH ĐÀ NẴNG NỔI TIẾNG ĐẸP MÊ MẨN QUÊN LỐI VỀ
+        </h4>
+        <!--(MỤC LỤC) -->
+       <div class="container my-4">
+  <button class="btn btn-warning w-100 text-start d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#mucLucNoiDung" aria-expanded="false" aria-controls="mucLucNoiDung" onclick="toggleIcon(this)">
+    <strong><i class="fas fa-bars me-2"></i> MỤC LỤC</strong>
+    <span class="toggle-icon rotate">&#9660;</span>
+  </button>
+
+  <div class="collapse border p-3 bg-light" id="mucLucNoiDung">
+    <ul class="list-unstyled mb-0">
+      <li><a href="#cay-cau">Tham quan các địa điểm du lịch Đà Nẵng là những cây cầu nổi tiếng</a>
+        <ul>
+          <li><a href="#cau-song-han">Cầu sông Hàn</a></li>
+          <li><a href="#cau-rong">Cầu Rồng</a></li>
+          <li><a href="#cau-tinh-yeu">Cầu Tình Yêu</a></li>
+        </ul>
+      </li>
+      <li><a href="#bai-bien">Khu vực bãi biển Đà Nẵng</a>
+        <ul>
+          <li><a href="#bien-my-khe">Biển Mỹ Khê</a></li>
+          <li><a href="#bien-non-nuoc">Biển Non Nước</a></li>
+          <li><a href="#bai-rang">Bãi Rạng</a></li>
+        </ul>
+      </li>
+      <li><a href="#khu-vui-choi">Khu vui chơi, giải trí nổi tiếng</a>
+        <ul>
+          <li><a href="#ba-na-hills">Bà Nà Hills</a></li>
+          <li><a href="#cv-chau-a">Công viên Châu Á</a></li>
+          <li><a href="#ngu-hanh-son">Danh lam thắng cảnh Ngũ Hành Sơn</a></li>
+        </ul>
+      </li>
+      <li><a href="#lang-nghe">Một số làng nghề nổi tiếng</a>
+        <ul>
+          <li><a href="#lang-chieu-cam-ne">Làng chiếu Cẩm Nê</a></li>
+          <li><a href="#lang-my-nghe-non-nuoc">Làng Mỹ Nghệ Non Nước</a></li>
+          <li><a href="#lang-nam">Làng nước mắm Nam Ô</a></li>
+        </ul>
+      </li>
+      <li><a href="#chi-phi">Tham quan những địa điểm du lịch Đà Nẵng có mất phí không?</a>
+        <ul>
+          <li><a href="#ko-thu-ve">Địa điểm du lịch Đà Nẵng không thu vé</a></li>
+          <li><a href="#co-thu-ve">Giá vé các địa điểm du lịch Đà Nẵng cụ thể</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+
+        <p class="mb-5">
+          <strong>Địa điểm du lịch Đà Nẵng</strong> nào đẹp, nên đi,… là điều mà
+          du khách quan tâm nhất khi có ý định khám phá thành phố xinh đẹp này.
+          Được xem là thành phố của du lịch, Đà Nẵng có lợi thế cả về núi, sông,
+          biển,… nên có vô số điểm để tham quan, vui chơi. Chúng tôi sẽ bật mí
+          các địa điểm du lịch đáng ghé thăm nhất ở bài viết dưới đây.
+        </p>
+        <!--Video-->
+        <div class="text-center mb-5">
+  <iframe  
+    src="https://www.youtube.com/embed/TxHE0Kmmcgk" 
+    title="YouTube video player" 
+    style="width: 800px; height: 600px;" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+  </iframe>
+</div> 
+       <!-- Giới thiệu -->
+        <div class="mb-5">
+          <h3 class="mb-3" id="gioi-thieu">
+            Giới thiệu địa điểm du lịch Đà Nẵng có gì hấp dẫn?
+          </h3>
+          <p>
+            Đà Nẵng được mệnh danh là một trong những thành phố đáng sống nhờ
+            điều kiện tự nhiên thuận lợi, cảnh quan thiên nhiên đẹp và còn là
+            nơi được nhiều khách du lịch đến tham quan nhiều nhất.
+          </p>
+          <p>
+            Thành phố này được bao quanh bởi ba di sản văn hoá thế giới rất nổi
+            tiếng: Huế, Hội An, Thánh địa Mỹ Sơn và kể xa thêm một chút nữa là
+            vườn Quốc Gia Phong Nha Kẻ Bàng.
+          </p>
+          <figure class="text-center">
+            <img
+              src="Imags/diaiem/dia-diem-1.jpg"
+              alt="Địa điểm du lịch Đà Nẵng"
+              class="img-fluid mb-2"
+              style="max-width: 700px; width: 100%"
+            />
+            <figcaption class="text-muted fst-italic">
+              Cảnh đẹp Đà Nẵng – thành phố biển đáng sống
+            </figcaption>
+          </figure>
+          <p>
+            Nơi đây không chỉ nổi tiếng với địa điểm du lịch Đà Nẵng độc đáo mà
+            còn là nơi sở hữu rất nhiều điểm đến nổi tiếng như: Khu du lịch Bà
+            Nà Hills, biển Mỹ Khê, Công viên Châu Á,… Cứ mỗi năm, thành phố này
+            sẽ tổ chức lễ hội pháo hoa tại cầu sông Hàn và thu hút đông đảo
+            người dân ở những tỉnh thành khác đến xem.
+          </p>
+          <p>
+            Đà Nẵng còn là trung tâm văn hoá, giáo dục, y tế, kinh tế, chính
+            trị, xã hội,… hiện đại và phát triển. Nếu bạn là một người chưa bao
+            giờ đến Đà Nẵng và muốn tìm hiểu về thành phố này thì bài viết dưới
+            đây sẽ giúp bạn có cái nhìn tổng quan hơn thông qua những địa điểm
+            du lịch đẹp ở Đà Nẵng được vô số khách du lịch yêu thích.
+          </p>
+        </div>
+        <!-- Các cây cầu nổi tiếng -->
+        <div class="mb-5">
+          <h3 class="mb-3" id="cay-cau">
+            Tham quan các địa điểm du lịch Đà Nẵng là những cây cầu nổi tiếng
+          </h3>
+          <p>
+            Thành phố Đà Nẵng được biết đến là nơi tập hợp của nhiều cây cầu đẹp
+            với thiết kế kiến trúc độc đáo, chuyên nghiệp nên đã để lại trong
+            lòng du khách những ấn tượng khó quên. Một số cây cầu nổi tiếng đó
+            là:
+          </p>
+          <!-- Cầu Sông Hàn -->
+          <h4 class="mb-3 ms-3" id="cau-song-han">Cầu Sông Hàn</h4>
+          <div class="ms-3">
+            <ul>
+              <li>
+                Địa chỉ: Ngã 4 đường Lê Duẩn, quận Sơn Trà, thành phố Đà Nẵng
+              </li>
+            </ul>
+            <p>
+              Cầu Sông Hàn được xây trên trục chính của đường Bạch Đằng và bắc
+              qua sông Hàn. Đây là cây cầu đầu tiên đánh dấu sự phát triển của
+              thành phố.
+            </p>
+            <p>
+              Điểm đặc biệt là cầu có thể xoay 1 góc 90 độ vào lúc 23h mỗi tối
+              thứ Bảy và Chủ Nhật. Đây cũng là một trong những <strong
+                >địa điểm du lịch Đà Nẵng</strong
+              >
+              được yêu thích nhất.
+            </p>
+          </div>
+          <figure class="text-center">
+            <img
+              src="Imags/diaiem/dia-diem-2.jpg"
+              alt="Cầu Sông Hàn"
+              class="img-fluid mb-2"
+              style="max-width: 700px; width: 100%"
+            />
+            <figcaption class="text-muted fst-italic">
+              Đây là cây cầu đầu tiên đánh dấu sự phát triển của thành phố
+            </figcaption>
+          </figure>
+
+          <!-- Cầu Rồng -->
+          <h4 class="mb-3 ms-3" id="cau-rong">Cầu Rồng</h4>
+          <div class="ms-3">
+            <ul>
+              <li>
+                Địa chỉ: Đường Nguyễn Văn Linh, nối dài ra Võ Văn Kiệt, thành
+                phố Đà Nẵng
+              </li>
+            </ul>
+            <p>
+              Cầu Rồng được thiết kế mô phỏng hình rồng vươn ra biển lớn – biểu
+              tượng của sự mạnh mẽ, phát triển. Cầu có khả năng phun lửa và phun
+              nước vào lúc 21h tối thứ Bảy và Chủ Nhật, tạo nên một màn trình
+              diễn đặc sắc thu hút du khách.
+            </p>
+            <p>
+              Với thiết kế độc đáo và vị trí đắc địa, Cầu Rồng dần trở thành
+              biểu tượng mới của <strong>thành phố Đà Nẵng hiện đại.</strong>
+            </p>
+          </div>
+          <figure class="text-center">
+            <img
+              src="Imags/diaiem/dia-diem-3.jpg"
+              alt="Cầu Rồng"
+              class="img-fluid mb-2"
+              style="max-width: 700px; width: 100%"
+            />
+            <figcaption class="text-muted fst-italic">
+              Cầu Rồng dần trở thành biểu tượng của TP Đà Nẵng
+            </figcaption>
+          </figure>
+          <!--Cầu tình yêu-->
+          <h4 class="mb-3 ms-3" id="cau-tinh-yeu">Cầu Tình yêu</h4>
+          <div class="ms-3">
+            <ul>
+              <li>Địa chỉ: 493 Trần hưng Đạo, Sơn Trà, thành phố Đà Nẵng</li>
+            </ul>
+            <p>
+              Cầu tình yêu là một trong những<strong>
+                địa điểm du lịch Đà Nẵng</strong
+              >
+              được biết đến là nơi có nhiều cặp đôi đến đây để chứng minh tình
+              yêu của mình bằng móc khoá tình yêu.
+            </p>
+            <p>
+              Đó cũng là lý do mà các bạn thấy có rất nhiều móc khóa tình yêu
+              tại đây. Bên cạnh cây cầu còn có bức tượng cá chép hoá Rồng, bạn
+              có thể check-in thêm.
+            </p>
+          </div>
+          <figure class="text-center">
+            <img
+              src="Imags/diaiem/dia-diem-4.jpg"
+              alt="Cầu RTình yêu"
+              class="img-fluid mb-2"
+              style="max-width: 700px; width: 100%"
+            />
+            <figcaption class="text-muted fst-italic">
+              Cây cầu dành cho các cặp đôi
+            </figcaption>
+          </figure>
+          <!--Các bãi biển-->
+          <h3 class="mb-3" id="bai-bien">
+            Một số bãi biển là địa điểm du lịch Đà Nẵng lý tưởng cho mùa hè
+          </h3>
+          <p>
+            Đà Nẵng là một trong những thành phố sở hữu cho mình những bãi biển
+            đẹp và là nơi phục vụ cho du lịch. Sau đây là một số bãi biển ở Đà
+            Nẵng được đánh giá là <strong>địa điểm du lịch Đà Nẵng</strong> được
+            yêu thích nhất.
+          </p>
+          <!--Biển Mỹ Khuê-->
+          <h4 class="mb-3 ms-3" id="bien-my-khe">Biển Mỹ Khuê</h4>
+          <div class="ms-3">
+            <ul>
+              <li>
+                Địa chỉ: Đường Võ Nguyên Giáp, phường Phước Mỹ, quận Sơn
+                Trà,thành phố Đà Nẵng
+              </li>
+            </ul>
+            <p>
+              Bãi biển Mỹ Khê – một trong những bãi biển quyến rũ nhất hành
+              tinh. Nơi này trở thành một trong những địa điểm thu hút khách du
+              lịch đến tham quan nhiều nhất.
+            </p>
+            <p>
+              Khung cảnh ở đây rất đẹp, cây cối xum xuê, nhiều nhà hàng và quán
+              nước mọc lên ở đây. Không những thế, biển Mỹ Khê còn là nơi được
+              chọn để tổ chức những show ca nhạc lớn.
+            </p>
+          </div>
+          <figure class="text-center">
+            <img
+              src="Imags/diaiem/dia-diem-5.jpg"
+              alt="Cầu RTình yêu"
+              class="img-fluid mb-2"
+              style="max-width: 700px; width: 100%"
+            />
+            <figcaption class="text-muted fst-italic">
+              Bãi biển được đánh giá là quyến rũ nhất hành tinh
+            </figcaption>
+          </figure>
+          <!--Biển Non Nước-->
+          <h4 class="mb-3 ms-3" id="bien-non-nuoc">Biển Non Nước</h4>
+          <div class="ms-3">
+            <ul>
+              <li>
+                Địa chỉ: Đường Võ Nguyên Giáp, phường Phước Mỹ, quận Sơn
+                Trà,thành phố Đà Nẵng
+              </li>
+            </ul>
+            <p>
+              Biển non nước là một trong những
+              <strong> địa điểm du lịch Đà Nẵng</strong> đẹp được yêu thích.
+              Thông thường, mọi người sẽ đến đây để cắm trại, tắm biển và tổ
+              chức một số trò chơi tại đây.
+            </p>
+            <p>
+              Vào mỗi buổi tối, hoạt động câu cá thường được diễn ra và cá thực
+              phẩm chính cho buổi nhậu chill chill tại bãi biển này.
+            </p>
+          </div>
+          <figure class="text-center">
+            <img
+              src="Imags/diaiem/dia-diem-6.jpg"
+              alt="Cầu Tình yêu"
+              class="img-fluid mb-2"
+              style="max-width: 700px; width: 100%"
+            />
+            <figcaption class="text-muted fst-italic">
+              Biển đẹp Non Nước tại thành phố Đà Nẵng được yêu thích
+            </figcaption>
+          </figure>
+          <!--Bãi Rạng Đà Nẵng-->
+          <h4 class="mb-3 ms-3" id="bai-rang">Bãi Rạng Đà Nẵng</h4>
+          <div class="ms-3">
+            <ul>
+              <li>
+                Địa chỉ: Thuộc bán đảo Sơn Trà, quận Sơn Trà thành phố Đà Nẵng
+              </li>
+            </ul>
+            <p>
+              Bên cạnh những địa điểm du lịch Đà Nẵng khác thì Bãi Rạng là một
+              trong những địa điểm du lịch không nên bỏ qua khi check – in tại
+              Đà Nẵng.
+            </p>
+            <p>
+              Tại đây bạn sẽ được trải nghiệm và tham gia một số hoạt động vui
+              chơi giải trí như: Ngắm cảnh, chụp ảnh nghệ thuật, lặn ngắm san
+              hô, cắm trại qua đêm,… Và còn rất nhiều hoạt động khác nữa. Nếu có
+              cơ hội, hãy đến đây tham quan và trải nghiệm nhé!
+            </p>
+          </div>
+          <figure class="text-center">
+            <img
+              src="Imags/diaiem/dia-diem-7.jpg"
+              alt="Bãi Rạng Đà Nẵng"
+              class="img-fluid mb-2"
+              style="max-width: 700px; width: 100%"
+            />
+            <figcaption class="text-muted fst-italic">
+              Một trong những địa điểm du lịch không nên bỏ qua khi check – in
+              tại Đà Nẵng.
+            </figcaption>
+          </figure>
+          <!--Địa điểm du lịch được nhiều người biết đến-->
+          <h3 class="mb-3" id="khu-vui-choi">
+            Top địa điểm du lịch Đà Nẵng nổi tiếng được nhiều người biết đến
+          </h3>
+          <p>
+            Bất kỳ ai tới Đà Nẵng dù là chuyến đi ngắn ngày hay dài ngày đều
+            dành thời gian để khám phá các địa điểm nổi tiếng nhất của thành phố
+            này. Các cái tên mà chúng tôi kể ra dưới đây đều là những điểm mà
+            hầu như ai cũng biết tới.
+          </p>
+          <!--Khu du lịch Bà Nà Hill-->
+          <h4 class="mb-3 ms-3" id="ba-na-hills">Bà Nà Hills</h4>
+          <div class="ms-3">
+            <ul>
+              <li>
+                Địa chỉ: huyện Hoà Vang, nằm cách xa trung tâm Đà Nẵng gần 25km
+              </li>
+            </ul>
+            <p>
+              Trên bản đồ địa điểm du lịch Đà Nẵng thì Bà Nà Hills là một trong
+              số các địa điểm được yêu thích nhất với công trình kiến trúc độc
+              đáo và hiện đại. Nằm trên đỉnh núi chúa và có độ cao trên 1489 mét
+              so với mực nước biển.
+            </p>
+            <p>
+              Tại đây, bạn sẽ được tham quan rất nhiều địa điểm có công trình
+              kiến trúc độc đáo như: Khu làng Pháp Bà Nà Hills, Miếu Bà, Cầu
+              Vàng, quảng trường Nhật Thực, lâu đài Mặt Trăng… Bạn cũng có thể
+              trải nghiệm chuyến tàu hỏa leo núi.
+            </p>
+          </div>
+          <figure class="text-center">
+            <img
+              src="Imags/diaiem/dia-diem-9.jpg"
+              alt="Khu du lịch Bà Nà Hills"
+              class="img-fluid mb-2"
+              style="max-width: 700px; width: 100%"
+            />
+            <figcaption class="text-muted fst-italic">
+              Bà Nà Hills là một trong những địa điểm du lịch có công trình kiến
+              trúc vô cùng độc đáo và hiện đại
+            </figcaption>
+          </figure>
+          <!--Công viên Châu Á-->
+          <h4 class="mb-3 ms-3" id="cv-chau-a">Công viên Châu Á</h4>
+          <div class="ms-3">
+            <ul>
+              <li>
+                Địa chỉ: 1 Phan Đăng Lưu, phường Hoà Cường Bắc, quận Hải Châu,
+                thành phố Đà Nẵng.
+              </li>
+            </ul>
+          </div>
+          <figure class="text-center">
+            <img
+              src="Imags/diaiem/dia-diem-8.png"
+              alt="Công viên Châu Á"
+              class="img-fluid mb-2"
+              style="max-width: 700px; width: 100%"
+            />
+            <figcaption class="text-muted fst-italic">
+              Vô số trò chơi tại công viên châu Á mà bạn nên trải nghiệm
+            </figcaption>
+          </figure>
+          <p>
+            Công viên Châu Á là một trong những địa điểm du lịch Đà Nẵng được
+            nhiều người yêu thích. Đây như một khu vườn bao bọc bên trong là một
+            tòa lâu đài vô cùng lộng lẫy sang trọng và không có điểm dừng. Bạn
+            sẽ bị “mắc kẹt” bởi vô số địa điểm đẹp cũng như vô số các trò chơi
+            tại nơi đây
+          </p>
+          <!--Danh lam thắng cảnh Ngũ Hành Sơn-->
+          <h4 class="mb-3 ms-3" id="ngu-hanh-son">Danh lam thắng cảnh Ngũ Hành Sơn</h4>
+          <div class="ms-3">
+            <ul>
+              <li>
+                Địa chỉ: 81 Huyền Trân Công Chúa, P. Hoà Hải, Q. Ngũ Hành
+                Sơn,TP. Đà Nẵng
+              </li>
+            </ul>
+            <p>
+              Ngũ Hành Sơn là một trong những địa điểm du lịch Đà Nẵng đẹp có
+              nhiều hang động vô cùng độc đáo như: Động Quan Âm, động Linh Nha,
+              động Thiên Long,..nên nơi này được rất nhiều khách du lịch đến
+              khám phá và tham quan.
+            </p>
+          </div>
+          <figure class="text-center">
+            <img
+              src="Imags/diaiem/dia-diem-10.jpg"
+              alt="Danh lam thắng cảnh Ngũ Hành Sơn"
+              class="img-fluid mb-2"
+              style="max-width: 700px; width: 100%"
+            />
+            <figcaption class="text-muted fst-italic">
+              Danh lam thắng cảnh Ngũ Hành Sơn là một trong những địa điểm du
+              lịch Đà Nẵng<br />
+              đẹp có nhiều hang động vô cùng độc đáo
+            </figcaption>
+          </figure>
+          <!--Làng nghề nổi tiếng-->
+          <h3 class="mb-3" id="lang-nghe">
+            Một số làng nghề nổi tiếng tại địa điểm du lịch Đà Nẵng
+          </h3>
+          <p>
+            Nhắc đến Đà Nẵng chắc hẳn mọi người sẽ nghĩ đến ngay những cây cầu
+            nổi tiếng, những địa điểm check – in, những khu vui chơi giải trí.
+            Bên cạnh những điều đó thì làng nghề là một trong những địa điểm mà
+            bạn không nên bỏ qua khi đến thành phố này.
+          </p>
+          <!--Làng chiếu Cẩm Nê-->
+          <h4 class="mb-3 ms-3" id="lang-chieu-cam-ne">Làng chiếu Cẩm Nê</h4>
+          <div class="ms-3">
+            <ul>
+              <li>Địa chỉ: Xã Hoà Tiến, huyện Hoà Vang, Thành phố Đà Nẵng.</li>
+            </ul>
+            <p>
+              Làng Chiếu Cẩm Nê là một địa điểm du lịch Đà Nẵng mà bạn sẽ được
+              tham quan và tận mắt chứng kiến quy trình tạo ra một chiếc chiếu
+              của người Cẩm Nê.
+            </p>
+            <p>
+              Bên cạnh đó, bạn có thể cùng tham gia và tạo ra cho mình một chiếc
+              chiếu thông qua sự chỉ dẫn của người dân có tay nghề cao tại Cẩm
+              Nê.
+            </p>
+          </div>
+          <figure class="text-center">
+            <img
+              src="Imags/diaiem/dia-diem-11.jpg"
+              alt="Làng chiếu Cẩm Nê"
+              class="img-fluid mb-2"
+              style="max-width: 700px; width: 100%"
+            />
+            <figcaption class="text-muted fst-italic">
+              Quá trình làm chiếu tại làng chiếu Cẩm Nê
+            </figcaption>
+          </figure>
+          <!--Làng Mỹ Nghệ Non Nước-->
+          <h4 class="mb-3 ms-3" id="lang-my-nghe-non-nuoc">Làng Mỹ Nghệ Non Nước</h4>
+          <div class="ms-3">
+            <ul>
+              <li>Địa chỉ: P. Hoà Hải, Q. Ngũ Hành Sơn, Thành phố Đà Nẵng.</li>
+            </ul>
+            <p>
+              Làng Mỹ Nghệ Non Nước là một trong những làng nghề nổi tiếng và
+              cũng là địa điểm du lịch Đà Nẵng thu hút nhiều khách du lịch tham
+              quan.
+            </p>
+            <p>
+              Đến đây bạn sẽ được chiêm ngưỡng vô số kiệt tác mang lại giá trị
+              nghệ thuật cao được chia làm 3 nhánh phục vụ cho 3 mục đích khác
+              nhau bao gồm: Đời sống sinh hoạt, tâm linh, thờ phụng và làm quà
+              lưu niệm.
+            </p>
+          </div>
+          <figure class="text-center">
+            <img
+              src="Imags/diaiem/dia-diem-12.jpg"
+              alt="Làng Mỹ Nghệ Non Nước"
+              class="img-fluid mb-2"
+              style="max-width: 700px; width: 100%"
+            />
+            <figcaption class="text-muted fst-italic">
+              Làng nghề nổi tiếng tại thành phố Đà Nẵng
+            </figcaption>
+          </figure>
+          <!--Làng nước mắm Nam Ô-->
+          <h4 class="mb-3 ms-3" id="lang-nam">Làng nước mắm Nam Ô</h4>
+          <div class="ms-3">
+            <ul>
+              <li>
+                Địa chỉ: Dưới chân đèo Hải Vân, P. Hoà Hiệp, Q. Liên Chiểu,
+                TP.Đà Nẵng
+              </li>
+            </ul>
+            <p>
+              Nếu có dịp đến Đà Nẵng thì hãy ghé thăm làng nước mắm Nam Ô, đây
+              một trong những làng nghề truyền thống còn tồn tại và được đưa vào
+              di sản văn hoá phi vật thể quốc gia.
+            </p>
+          </div>
+          <figure class="text-center">
+            <img
+              src="Imags/diaiem/dia-diem-13.jpg"
+              alt="Làng nước mắm Nam Ô"
+              class="img-fluid mb-2"
+              style="max-width: 700px; width: 100%"
+            />
+            <figcaption class="text-muted fst-italic">
+              Làng nghề truyền thống được đưa vào di sản văn hoá phi vật thể
+              quốc gia
+            </figcaption>
+          </figure>
+          <p>
+            Hãy đến đây ghé thăm và mua một ít nước mắm về làm quà để tặng cho
+            gia đình, bạn bè hay người thân nếu muốn nhé!
+          </p>
+          <!--Tham quan địa điểm có mất phí-->
+          <h3 class="mb-3" id="chi-phi">
+            Tham quan những địa điểm du lịch Đà Nẵng có mất phí không?
+          </h3>
+          <p>
+            Đà Nẵng là một trong những thành phố của du lịch nên dĩ nhiên sẽ có
+            một số nơi tốn phí hay không tốn phí. Tốn phí hay không sẽ tùy thuộc
+            vào địa điểm mà bạn muốn đến.
+          </p>
+          <p>
+            Vậy nên trước khi muốn du lịch Đà Nẵng thì hãy cùng tìm hiểu và xem
+            xét thật kỹ những địa điểm mà mình muốn đến để tránh những phát sinh
+            ngoài ý muốn nhé!
+          </p>
+          <!--KO thu vé-->
+          <h4 class="mb-3 ms-3" id="ko-thu-ve">Địa điểm du lịch Đà Nẵng không thu vé</h4>
+          <div class="ms-3">
+            <p>
+              Bạn muốn đến Đà Nẵng du lịch nhưng không có nhiều tiền? Đừng lo,
+              sau đây chúng tôi sẽ gợi ý cho bạn một số địa điểm tham quan ở Đà
+              Nẵng không cần tốn phí mà bạn nên trải nghiệm đó là:
+            </p>
+            <ul>
+              <li>Các bãi biển Đà Nẵng</li>
+              <li>Chùa Linh Ứng</li>
+              <li>5 cây cầu nổi tiếng tại Đà Nẵng</li>
+              <li>Công viên Châu Á (miễn phí vé vào cổng)</li>
+              <li>Chợ đêm Helio</li>
+              <li>Bán đảo Sơn Trà….</li>
+            </ul>
+          </div>
+          <figure class="text-center">
+            <img
+              src="Imags/diaiem/dia-diem-14.jpg"
+              alt="Địa điểm 14"
+              class="img-fluid mb-2"
+              style="max-width: 700px; width: 100%"
+            />
+            <figcaption class="text-muted fst-italic">
+              Cầu quay sông Hàn
+            </figcaption>
+          </figure>
+          <!--CỐ thu vé-->
+          <h4 class="mb-3 ms-3" id="co-thu-ve">Giá vé các địa điểm du lịch Đà Nẵng cụ thể</h4>
+          <div class="ms-3">
+            <p>
+              Bên cạnh những địa điểm không tính phí là những địa điểm phải mua
+              vé mới có thể tham quan được như: Bà Nà Hills, Cù Lao Chàm, Công
+              viên châu Á, khu du lịch suối khoáng nóng thần tài, danh lam thắng
+              cảnh Ngũ Hành Sơn,…. Sau đây sẽ là chi phí của một số địa điểm du
+              lịch tại Đà Nẵng mà bạn nên tham khảo:
+            </p>
+          </div>
+
+          <!--Bảng-->
+          <table class="table table-bordered">
+            <thead class="table-light" style="text-align: center;">
+              <tr>
+                <th scope="col"><strong>Địa điểm</strong></th>
+                <th scope="col"><strong>Giá vé</strong></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Khu du lịch Bà Nà Hills</td>
+                <td>
+                  <ul>
+                    <li>
+                      Giá vé khách ngoại tỉnh cho người lớn: 900.000 VNĐ, trẻ em
+                      1m – 1.4m: 750.000 VNĐ, trẻ em dưới 1m4 được miễn phí.
+                    </li>
+                    <li>
+                      Giá vé khách Đà Nẵng cho người lớn: 600.000 VNĐ, trẻ em 1m
+                      – 1m4: 500.000 VNĐ, trẻ em dưới 1m4 được miễn phí.
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>Khu du lịch Núi Thần Tài</td>
+                <td>Người lớn: 450.000 VNĐ, trẻ em: 225.000 VNĐ</td>
+              </tr>
+              <tr>
+                <td>Khu trượt thác Hòa Phú Thành</td>
+                <td>
+                  <ul>
+                    <li>
+                      Vé người lớn (cao từ 1m3 trở lên): Khoảng 100.000
+                      đồng/người/lượt.
+                    </li>
+                    <li>Vé trẻ em (dưới 1m3): miễn phí</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>Suối Hoa Đà Nẵng</td>
+                <td>
+                  <ul>
+                    <li>Đối với người lớn: 100k/khách/lượt.</li>
+                    <li>Đối với trẻ em từ 1-1.4m: 50k/khách/lượt.</li>
+                  </ul>
+                </td>
+              </tr>
+                <tr>
+                <td>Bảo tàng tranh 3D</td>
+                <td>
+                  <ul>
+                    <li>Giá vé cho khách Việt Nam 140.000 VNĐ (người lớn) và 100.000 VNĐ (trẻ em 1m – 1m3)</li>
+                    <li>Giá vé cho khách nước ngoài 200.000 VNĐ (người lớn) và 100.000 VNĐ (trẻ em 1m – 1m3)</li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>Tuy nhiên, nếu có cơ hội thì bạn hãy bỏ ra một số tiền để có một trải nghiệm thú vị và trọn vẹn hơn nhé!</p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white pt-5 pb-4">
+      <div class="container text-md-left">
+        <div class="row text-md-left">
+          <!-- Cột 1 -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold">Về chúng tôi</h5>
+            <p><strong>Web Du Lịch Đà Nẵng</strong></p>
+            <p>
+              <em
+                >“Khám phá vẻ đẹp vô tận của Đà Nẵng”<br />Discover the endless
+                beauty of Da Nang</em
+              >
+            </p>
+            <p>
+              <a href="#" class="text-white">https://webdulichdanang.com</a>
+            </p>
+            <h6 class="mt-3">Thông tin</h6>
+            <p>
+              <i class="fas fa-phone-alt text-danger me-2"></i
+              ><span class="text-danger">0914731914</span>
+            </p>
+            <p>
+              <i class="fas fa-envelope text-danger me-2"></i
+              ><span class="text-danger">booking@webdulichdanang.com</span>
+            </p>
+          </div>
+
+          <!-- Cột 2 -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold">Khám phá</h5>
+            <p>
+              <a href="#" class="text-white text-decoration-none"
+                >Điểm đến Đà Nẵng</a
+              >
+            </p>
+            <p>
+              <a href="#" class="text-white text-decoration-none"
+                >Ẩm thực Đà Nẵng</a
+              >
+            </p>
+            <p>
+              <a href="#" class="text-white text-decoration-none"
+                >Kinh nghiệm Đà Nẵng</a
+              >
+            </p>
+            <p>
+              <a href="#" class="text-white text-decoration-none"
+                >Dịch vụ Đà Nẵng</a
+              >
+            </p>
+            <p>
+              <a href="#" class="text-white text-decoration-none"
+                >Lễ hội Đà Nẵng</a
+              >
+            </p>
+
+            <p>
+              <a href="#" class="text-white text-decoration-none"
+                >Tin tức Đà Nẵng</a
+              >
+            </p>
+          </div>
+
+          <!-- Cột 3 -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold">Liên kết</h5>
+            <p>
+              <a href="#" class="text-white text-decoration-none"
+                >Du Lịch Miền Trung</a
+              >
+            </p>
+            <p>
+              <a href="#" class="text-white text-decoration-none"
+                >Du Lịch Hội An</a
+              >
+            </p>
+            <p>
+              <a href="#" class="text-white text-decoration-none"
+                >Du Lịch Huế</a
+              >
+            </p>
+            <p>
+              <a href="#" class="text-white text-decoration-none">Daily Tour</a>
+            </p>
+            <p>
+              <a href="#" class="text-white text-decoration-none"
+                >Hue Daily Tour</a
+              >
+            </p>
+            <p>
+              <a href="#" class="text-white text-decoration-none"
+                >Hue City Tour</a
+              >
+            </p>
+          </div>
+
+          <!-- Cột 4 -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold">Mục lục</h5>
+            <p><a href="#" class="text-white text-decoration-none">Blog</a></p>
+            <p><a href="#" class="text-white text-decoration-none">Tours</a></p>
+            <p>
+              <a href="#" class="text-white text-decoration-none">Khách sạn</a>
+            </p>
+            <p>
+              <a href="#" class="text-white text-decoration-none"
+                >Combo Đà Nẵng</a
+              >
+            </p>
+            <p>
+              <a href="#" class="text-white text-decoration-none">Bản đồ</a>
+            </p>
+            <p>
+              <a href="#" class="text-white text-decoration-none">Liên hệ</a>
+            </p>
+          </div>
+        </div>
+
+        <hr class="mb-4" />
+
+        <!-- Mạng xã hội -->
+        <div class="text-center mb-3">
+          <div class="d-flex justify-content-center gap-3 fs-5">
+            <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-google"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-pinterest"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <!-- Bản quyền -->
+        <div class="text-center pb-2">
+          <p class="mb-0 text-white">
+            © Web Du Lịch Đà Nẵng 2025 - Phát triển bởi
+            <strong>Web Du Lịch Đà Nẵng</strong>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!--scrip mục lục-->
+    <script>
+  function toggleIcon(button) {
+    const icon = button.querySelector('.toggle-icon');
+    icon.classList.toggle('rotate-up');
+  }
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

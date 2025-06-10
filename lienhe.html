@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Liên hệ </title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="lienhe.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Khám phá Đà Nẵng</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Trang chủ</a></li>
+          <li class="nav-item"><a class="nav-link" href="diadiem.html">Địa điểm</a></li>
+          <li class="nav-item"><a class="nav-link" href="amthuc.html">Ẩm thực</a></li>
+          <li class="nav-item"><a class="nav-link" href="khachsan.html">Khách sạn</a></li>
+          <li class="nav-item"><a class="nav-link" href="lehoi.html">Sự kiện/ Lễ Hội</a></li>
+          <li class="nav-item"><a class="nav-link active" href="lienhe.html">Liên hệ</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Phần liên hệ -->
+  <section class="contact-section">
+    <h2>Liên hệ với chúng tôi</h2>
+    <form id="contactForm" novalidate>
+      <div class="mb-3">
+        <label for="name" class="form-label">Họ và tên</label>
+        <input
+          type="text"
+          class="form-control"
+          id="name"
+          placeholder="Nhập họ và tên"
+          required
+        />
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input
+          type="email"
+          class="form-control"
+          id="email"
+          placeholder="Nhập email"
+          required
+        />
+        <div class="invalid-feedback">Email phải chứa ký tự '@'</div>
+      </div>
+      <div class="mb-3">
+        <label for="phone" class="form-label">Số điện thoại</label>
+        <input
+          type="tel"
+          class="form-control"
+          id="phone"
+          placeholder="Nhập số điện thoại"
+          required
+          maxlength="10"
+        />
+        <div class="invalid-feedback">Số điện thoại phải đủ 10 số và bắt đầu bằng số 0</div>
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Nội dung</label>
+        <textarea
+          class="form-control"
+          id="message"
+          rows="5"
+          placeholder="Nhập nội dung"
+          required
+        ></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary w-100">
+        Gửi liên hệ
+      </button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white pt-5 pb-4">
+    <div class="container text-md-left">
+      <div class="row text-md-left">
+        <!-- Cột 1 -->
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Về chúng tôi</h5>
+          <p><strong>Web Du Lịch Đà Nẵng</strong></p>
+          <p>
+            <em
+              >“Khám phá vẻ đẹp vô tận của Đà Nẵng”<br />Discover the endless
+              beauty of Da Nang</em
+            >
+          </p>
+          <p>
+            <a href="#" class="text-white">https://webdulichdanang.com</a>
+          </p>
+          <h6 class="mt-3">Thông tin</h6>
+          <p>
+            <i class="fas fa-phone-alt text-danger me-2"></i
+            ><span class="text-danger">0914731914</span>
+          </p>
+          <p>
+            <i class="fas fa-envelope text-danger me-2"></i
+            ><span class="text-danger">booking@webdulichdanang.com</span>
+          </p>
+        </div>
+
+        <!-- Cột 2 -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Khám phá</h5>
+          <p>
+            <a href="#" class="text-white text-decoration-none"
+              >Điểm đến Đà Nẵng</a
+            >
+          </p>
+          <p>
+            <a href="#" class="text-white text-decoration-none"
+              >Ẩm thực Đà Nẵng</a
+            >
+          </p>
+          <p>
+            <a href="#" class="text-white text-decoration-none"
+              >Kinh nghiệm Đà Nẵng</a
+            >
+          </p>
+          <p>
+            <a href="#" class="text-white text-decoration-none"
+              >Dịch vụ Đà Nẵng</a
+            >
+          </p>
+          <p>
+            <a href="#" class="text-white text-decoration-none"
+              >Lễ hội Đà Nẵng</a
+            >
+          </p>
+
+          <p>
+            <a href="#" class="text-white text-decoration-none"
+              >Tin tức Đà Nẵng</a
+            >
+          </p>
+        </div>
+
+        <!-- Cột 3 -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Liên kết</h5>
+          <p>
+            <a href="#" class="text-white text-decoration-none"
+              >Du Lịch Miền Trung</a
+            >
+          </p>
+          <p>
+            <a href="#" class="text-white text-decoration-none"
+              >Du Lịch Hội An</a
+            >
+          </p>
+          <p>
+            <a href="#" class="text-white text-decoration-none"
+              >Du Lịch Huế</a
+            >
+          </p>
+          <p>
+            <a href="#" class="text-white text-decoration-none">Daily Tour</a>
+          </p>
+          <p>
+            <a href="#" class="text-white text-decoration-none"
+              >Hue Daily Tour</a
+            >
+          </p>
+          <p>
+            <a href="#" class="text-white text-decoration-none"
+              >Hue City Tour</a
+            >
+          </p>
+        </div>
+
+        <!-- Cột 4 -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Mục lục</h5>
+          <p><a href="#" class="text-white text-decoration-none">Blog</a></p>
+          <p><a href="#" class="text-white text-decoration-none">Tours</a></p>
+          <p>
+            <a href="#" class="text-white text-decoration-none">Khách sạn</a>
+          </p>
+          <p>
+            <a href="#" class="text-white text-decoration-none"
+              >Combo Đà Nẵng</a
+            >
+          </p>
+          <p>
+            <a href="#" class="text-white text-decoration-none">Bản đồ</a>
+          </p>
+          <p>
+            <a href="#" class="text-white text-decoration-none">Liên hệ</a>
+          </p>
+        </div>
+      </div>
+
+      <hr class="mb-4" />
+
+      <!-- Mạng xã hội -->
+      <div class="text-center mb-3">
+        <div class="d-flex justify-content-center gap-3 fs-5">
+          <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-white"><i class="fab fa-google"></i></a>
+          <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="text-white"><i class="fab fa-pinterest"></i></a>
+          <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <!-- Bản quyền -->
+      <div class="text-center pb-2">
+        <p class="mb-0 text-white">
+          © Web Du Lịch Đà Nẵng 2025 - Phát triển bởi
+          <strong>Web Du Lịch Đà Nẵng</strong>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="lienhe.js"></script>
+</body>
+</html>

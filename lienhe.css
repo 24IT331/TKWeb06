@@ -1,0 +1,105 @@
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Hiệu ứng fade */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.contact-section {
+  max-width: 600px;
+  margin: 120px auto 50px auto;
+  background: white;
+  padding: 35px 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgb(0 0 0 / 0.1);
+  animation: fadeInUp 0.8s ease forwards;
+  transition: box-shadow 0.3s ease;
+}
+
+.contact-section:hover {
+  box-shadow: 0 15px 40px rgb(0 0 0 / 0.15);
+}
+
+h2 {
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.form-control {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  font-size: 1rem;
+  padding: 10px 15px;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.4);
+  outline: none;
+}
+
+.form-label {
+  position: relative;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+button.btn-primary {
+  background: linear-gradient(45deg, #007bff, #0056b3);
+  border: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 12px 0;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+button.btn-primary:hover {
+  background: linear-gradient(45deg, #0056b3, #003d80);
+  box-shadow: 0 8px 25px rgba(0, 86, 179, 0.6);
+  transform: scale(1.05);
+}
+
+button.btn-primary:active {
+  transform: scale(0.95);
+  box-shadow: 0 3px 10px rgba(0, 86, 179, 0.4);
+}
+
+::placeholder {
+  color: #aaa;
+  font-style: italic;
+}
+body {
+  padding-top: 70px; /* tương ứng với chiều cao navbar */
+}
+
+.navbar {
+  height: 70px;
+}
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  margin-left: 40px;
+  font-size: 1rem;
+}

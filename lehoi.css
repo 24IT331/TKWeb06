@@ -1,0 +1,42 @@
+/***** Navbar *****/
+body {
+  padding-top: 70px; /* tương ứng với chiều cao navbar */
+}
+
+.navbar {
+  height: 70px;
+}
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  margin-left: 40px;
+  font-size: 1rem;
+}
+/**mục lục**/
+.card-body h6 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.card-text {
+  font-size: 0.85rem;
+  line-height: 1.3;
+}
+.card a {
+  text-decoration: none;
+  color: #333;
+  font-size: 0.95rem;
+  transition: color 0.2s;
+}
+
+.card a:hover {
+  color: #fa6e10;
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,52 @@
+/***** Navbar *****/
+body {
+  padding-top: 70px; /* tương ứng với chiều cao navbar */
+}
+
+.navbar {
+  height: 70px;
+}
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  margin-left: 40px;
+  font-size: 1rem;
+}
+
+/***** Mục lục *****/
+.toggle-icon {
+  transition: transform 0.3s ease;
+  font-size: 18px;
+}
+
+.rotate.rotate-up {
+  transform: rotate(180deg);
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+ul ul {
+  padding-left: 20px;
+}
+
+/* Làm chữ đậm cho các tiêu đề chính */
+#mucLucNoiDung > ul > li > a {
+  font-weight: bold;
+}
